@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "PIRLS 2021 clustering reproducibility code"
+type: software
+authors:
+  - family-names: Elmaataoui
+    given-names: Rim
+  - family-names: Elharouri
+    given-names: Soukaina
+  - family-names: Lyaqini
+    given-names: Soufiane
+  - family-names: Hafidi
+    given-names: Imad
+date-released: 2026-09-27

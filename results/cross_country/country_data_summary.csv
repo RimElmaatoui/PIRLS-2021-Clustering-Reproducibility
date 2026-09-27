@@ -1,0 +1,5 @@
+country,country_name,n_students,n_features,continuous,discrete,mean_missing_before_imputation
+MAR,Morocco,7017,149,15,134,0.10588761904215362
+FRA,France,5339,149,15,134,0.026234709513759086
+SGP,Singapore,6719,149,15,134,0.0051461796707923365
+ZAF,South Africa,12422,149,15,134,0.11410962797115747

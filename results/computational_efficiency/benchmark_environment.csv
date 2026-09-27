@@ -1,0 +1,2 @@
+platform,python,logical_cpus,device,features,deep_pretrain_epochs,deep_refinement_iterations
+Windows-10-10.0.26200-SP0,3.11.6,20,CPU,203,100,2000

@@ -1,0 +1,13 @@
+method,scenario_a,scenario_b,ARI
+AE+KMeans,robust_median_mode,mice_1,0.3564550004161554
+Agglomerative,legacy_median,robust_median_mode,0.22446838943105762
+Agglomerative,robust_median_mode,mice_1,0.19055051624319988
+Agglomerative,legacy_median,mice_1,0.2793621111452591
+DEC,robust_median_mode,mice_1,0.42254412499459215
+GMM,legacy_median,robust_median_mode,0.2598042690834322
+GMM,robust_median_mode,mice_1,0.2530525541235607
+GMM,legacy_median,mice_1,0.31733921976651264
+IDEC,robust_median_mode,mice_1,0.3791380379230934
+KMeans,legacy_median,robust_median_mode,0.376315165697091
+KMeans,robust_median_mode,mice_1,0.21928147025307346
+KMeans,legacy_median,mice_1,0.23494958667484622

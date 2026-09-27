@@ -1,0 +1,2 @@
+screening_n,full_n,pretrain_epochs,max_refinement_iterations,seed
+3000,7017,30,500,42

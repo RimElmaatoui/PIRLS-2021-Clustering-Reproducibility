@@ -1,0 +1,4 @@
+method,outcome,statistic_min,statistic_max,p_max,effect_size,effect_name
+PCA+KMeans,Reading (5 plausible values),78.46178831942147,84.87252079919602,3.688067249104329e-16,0.025466829606970786,weighted_eta_squared
+PCA+KMeans,Home Resources for Learning,123.72784475793816,123.72784475793816,8.535743522205903e-26,0.0671713003944045,weighted_eta_squared
+PCA+KMeans,Language spoken at home,194.85822900200068,194.85822900200068,3.7494467063813797e-35,0.10157828612933621,Cramers_V

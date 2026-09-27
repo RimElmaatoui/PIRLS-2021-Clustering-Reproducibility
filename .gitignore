@@ -1,0 +1,45 @@
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# PIRLS source data
+Data/*.sav
+Data/*.zsav
+Data/*.por
+Data/ASP*.csv
+Data/ATG*.csv
+Data/ACG*.csv
+Data/ASG*.csv
+
+# Individual-level and potentially identifying derived files
+**/ids.csv
+**/ids_with_clusters*.csv
+**/labels_*.csv
+**/*assignments*.csv
+**/*features_std*.csv
+**/*latent*.csv
+**/*.npy
+**/*.npz
+
+# Generated analysis directories inside Data
+Data/Robust_imputation_comparison/
+Data/robust_primary_article/
+Data/robust_seed_stability/
+Data/validation_prioritaire_clusters/
+Data/dimensionality_reduction_baselines/
+Data/hyperparameter_ablation_robust/
+Data/cross_country_validation/
+Data/computational_efficiency/
+
+# Generated figures are reproducible and not tracked by default
+figures/*.png
+figures/*.pdf
