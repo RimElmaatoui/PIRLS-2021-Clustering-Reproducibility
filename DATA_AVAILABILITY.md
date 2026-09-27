@@ -2,7 +2,7 @@
 
 The analyses use the PIRLS 2021 International Database, Edition 2, published by the International Association for the Evaluation of Educational Achievement (IEA) and the TIMSS & PIRLS International Study Center.
 
-- Official PIRLS 2021 repository: <https://www.iea.nl/data-tools/repository-direct/1970?cycle=1036>
+- Official PIRLS 2021 data portal: <https://pirls2021.org/data/>
 - Dataset DOI: <https://doi.org/10.58150/PIRLS_2021_edition_2_including_Log-file_data>
 - IEA disclaimer and license agreement: <https://www.iea.nl/sites/default/files/data-repository/Disclaimer_and_License_Agreement.pdf>
 

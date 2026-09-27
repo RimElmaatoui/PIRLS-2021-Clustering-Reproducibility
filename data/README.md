@@ -1,8 +1,8 @@
 # PIRLS 2021 data
 
-The source data are not included. Download PIRLS 2021 Edition 2 directly from the official IEA repository:
+The source data are not included. Download PIRLS 2021 Edition 2 from the official PIRLS 2021 data portal:
 
-<https://www.iea.nl/data-tools/repository-direct/1970?cycle=1036>
+<https://pirls2021.org/data/>
 
 Dataset DOI: <https://doi.org/10.58150/PIRLS_2021_edition_2_including_Log-file_data>
 

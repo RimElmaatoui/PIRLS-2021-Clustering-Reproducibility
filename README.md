@@ -36,7 +36,7 @@ PIRLS-2021-Clustering-Reproducibility/
 
 ## Data availability
 
-The PIRLS 2021 source files are not redistributed in this repository. Download them from the [official PIRLS/IEA data portal](https://www.iea.nl/data-tools/repository-direct/1970?cycle=1036) and place the required files in `data/`. See [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) for the dataset DOI and conditions, and [`data/README.md`](data/README.md) for the required filenames.
+The PIRLS 2021 source files are not redistributed in this repository. Download them from the [official PIRLS 2021 data portal](https://pirls2021.org/data/) and place the required files in `data/`. See [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) for the dataset DOI and conditions, and [`data/README.md`](data/README.md) for the required filenames.
 
 Do not commit raw PIRLS files, student-level labels, identifiers, latent arrays, or completed individual-level matrices. The supplied `.gitignore` excludes these materials.
 
