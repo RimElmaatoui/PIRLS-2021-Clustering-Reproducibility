@@ -4,7 +4,7 @@ Ce script compare PCA + KMeans (baseline obligatoire) et UMAP + KMeans
 (baseline optionnelle) aux methodes deja calculees. Toutes les comparaisons
 utilisent la meme matrice robuste standardisee et K=5.
 
-Sorties: Data/dimensionality_reduction_baselines/
+Sorties: data/dimensionality_reduction_baselines/
 """
 
 from pathlib import Path
@@ -25,8 +25,8 @@ from sklearn.metrics import (
 )
 
 
-DATA_DIR = Path(__file__).resolve().parent
-PROJECT_DIR = DATA_DIR.parent
+PROJECT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_DIR / "data"
 INPUT_DIR = DATA_DIR / "robust_primary_article"
 LABEL_DIR = DATA_DIR / "Robust_imputation_comparison"
 OUT_DIR = DATA_DIR / "dimensionality_reduction_baselines"

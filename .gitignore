@@ -11,14 +11,9 @@ venv/
 .DS_Store
 Thumbs.db
 
-# PIRLS source data
-Data/*.sav
-Data/*.zsav
-Data/*.por
-Data/ASP*.csv
-Data/ATG*.csv
-Data/ACG*.csv
-Data/ASG*.csv
+# PIRLS source data (keep only data/README.md)
+data/*
+!data/README.md
 
 # Individual-level and potentially identifying derived files
 **/ids.csv
@@ -29,16 +24,6 @@ Data/ASG*.csv
 **/*latent*.csv
 **/*.npy
 **/*.npz
-
-# Generated analysis directories inside Data
-Data/Robust_imputation_comparison/
-Data/robust_primary_article/
-Data/robust_seed_stability/
-Data/validation_prioritaire_clusters/
-Data/dimensionality_reduction_baselines/
-Data/hyperparameter_ablation_robust/
-Data/cross_country_validation/
-Data/computational_efficiency/
 
 # Generated figures are reproducible and not tracked by default
 figures/*.png

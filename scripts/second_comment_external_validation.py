@@ -7,7 +7,7 @@ import pyreadstat
 from scipy.stats import chi2_contingency, kruskal
 
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 OUT_DIR = DATA_DIR / "validation_prioritaire_clusters"
 OUT_DIR.mkdir(exist_ok=True)
 METHODS = ["DEC", "IDEC"]

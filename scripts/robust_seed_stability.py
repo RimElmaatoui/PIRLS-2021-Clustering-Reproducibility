@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score, silhouette_score, calinski_harabasz_score, davies_bouldin_score
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 PRIMARY_DIR = DATA_DIR / "robust_primary_article"
 LABEL_DIR = DATA_DIR / "Robust_imputation_comparison"
 OUT_DIR = DATA_DIR / "robust_seed_stability"

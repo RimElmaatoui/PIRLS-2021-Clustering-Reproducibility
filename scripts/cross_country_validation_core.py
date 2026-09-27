@@ -32,7 +32,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 OUT_DIR = DATA_DIR / "cross_country_validation"
 OUT_DIR.mkdir(exist_ok=True)
 

@@ -12,8 +12,8 @@ from sklearn.mixture import GaussianMixture
 from sklearn.manifold import TSNE
 from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bouldin_score
 
-DATA_DIR = Path(__file__).resolve().parent
-PROJECT_DIR = DATA_DIR.parent
+PROJECT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_DIR / "data"
 ARTICLE_IMAGES = PROJECT_DIR / "figures"
 OUT_DIR = DATA_DIR / "robust_primary_article"
 OUT_DIR.mkdir(exist_ok=True)

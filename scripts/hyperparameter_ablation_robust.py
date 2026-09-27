@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score, silhouette_score, calinski_harabasz_score, davies_bouldin_score
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 OUT_DIR = DATA_DIR / "hyperparameter_ablation_robust"
 OUT_DIR.mkdir(exist_ok=True)
 X_FULL = np.load(DATA_DIR / "robust_primary_article" / "X_robust.npy")

@@ -4,7 +4,7 @@ import pandas as pd
 import pyreadstat
 from scipy.stats import kruskal
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 LABEL_DIR = DATA_DIR / "robust_seed_stability"
 OUT_DIR = DATA_DIR / "robust_primary_article"
 SEEDS = [0, 7, 42, 123, 2024]

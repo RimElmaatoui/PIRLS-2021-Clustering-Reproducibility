@@ -4,7 +4,7 @@ import argparse, ctypes, json, os, platform, subprocess, sys, threading, time
 import numpy as np
 import pandas as pd
 
-DATA_DIR=Path(__file__).resolve().parent
+DATA_DIR=Path(__file__).resolve().parents[1]/"data"
 OUT_DIR=DATA_DIR/"computational_efficiency"; OUT_DIR.mkdir(exist_ok=True)
 X_PATH=DATA_DIR/"robust_primary_article"/"X_robust.npy"
 METHODS=["KMeans","Agglomerative","GMM","PCA+KMeans","AE+KMeans","DEC","IDEC"]

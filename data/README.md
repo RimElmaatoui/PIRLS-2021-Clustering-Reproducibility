@@ -1,12 +1,12 @@
-# Required PIRLS files
+# PIRLS 2021 data
 
-Place the PIRLS source files in this directory before running the analyses. The files are intentionally not included in the repository.
+The source data are not included. Download PIRLS 2021 Edition 2 directly from the official IEA repository:
 
-Official repository: <https://www.iea.nl/data-tools/repository-direct/1970?cycle=1036>
+<https://www.iea.nl/data-tools/repository-direct/1970?cycle=1036>
 
 Dataset DOI: <https://doi.org/10.58150/PIRLS_2021_edition_2_including_Log-file_data>
 
-After downloading and extracting the files, compare them with `data_manifest.csv`. Matching SHA-256 hashes confirm that the local inputs are byte-for-byte identical to those used for the reported analyses.
+After accepting the IEA conditions, extract and place the following files in this directory.
 
 ## Moroccan primary analysis
 
